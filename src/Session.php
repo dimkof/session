@@ -1,15 +1,15 @@
 <?php
 
 /**
- * @package nimoy
+ * @package session
  * @version v0.2.0
  * @author Stephen Hill <stephen@gatekiller.co.uk>
  * @copyright Copyright 2014 Stephen Hill
  * @license MIT
- * @link https://github.com/stephen-hill/Nimoy
+ * @link https://github.com/emily-framework/session
  */
 
-namespace Nimoy
+namespace Emily\Session
 {
     use InvalidArgumentException;
     use ArrayObject;
@@ -32,7 +32,7 @@ namespace Nimoy
         protected $flash = [];
 
         /**
-         * @var Nimoy/ProviderInterface The storage provider for this class.
+         * @var Emily\Session\ProviderInterface The storage provider for this class.
          */
         protected $provider;
 

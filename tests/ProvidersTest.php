@@ -1,6 +1,6 @@
 <?php
 
-use Nimoy\MemcachedProvider;
+use Emily\Session\MemcachedProvider;
 
 /**
  * @todo Implement a test for invalid keys

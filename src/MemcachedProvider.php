@@ -1,6 +1,6 @@
 <?php
 
-namespace Nimoy
+namespace Emily\Session
 {
 	use Memcached;
 

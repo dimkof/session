@@ -1,6 +1,6 @@
 {
-    "name": "stephen-hill/Nimoy",
-    "description": "Nimoy is a PHP User Session hanlder which is simple and secure... hopefully.",
+    "name": "emily-framework/session",
+    "description": "Session manager for the Emily Framework.",
     "require": {
         "ext-redis": "*",
         "ext-memcached": "*",
@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nimoy\\": "src/"
+            "Emily\\Session\\": "src/"
         }
     },
     "config": {

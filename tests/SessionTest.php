@@ -1,7 +1,6 @@
 <?php
 
-use Nimoy\Session;
-use \Pimple;
+use Emily\Session\Session;
 
 class SessionTest extends PHPUnit_Framework_TestCase
 {

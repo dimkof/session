@@ -1,12 +1,12 @@
 <?php
 
-use Nimoy\Session;
+use Emily\Session\Session;
 
 require_once('vendor' . DIRECTORY_SEPARATOR . 'autoload.php');
 
 $session = new Session(array(
 	'duration' => 2419200, //28 days
-	'name' => 'ExampleNimoySession',
+	'name' => 'ExampleSession',
 	'provider' => new MemcachedProvider()
 ));
 

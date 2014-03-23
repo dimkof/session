@@ -1,6 +1,6 @@
-# Nimoy
+# Session Manager
 
-[![Build Status](https://travis-ci.org/stephen-hill/Nimoy.png)](https://travis-ci.org/stephen-hill/Nimoy)
-[![GitHub version](https://badge.fury.io/gh/stephen-hill%2FNimoy.png)](http://badge.fury.io/gh/stephen-hill%2FNimoy)
+[![Build Status](https://travis-ci.org/emily-framework/session.png)](https://travis-ci.org/emily-framework/session)
+[![GitHub version](https://badge.fury.io/gh/emily-framework%2Fsession.png)](http://badge.fury.io/gh/emily-framework%2Fsession)
 
-Nimoy is a PHP User Session hanlder which is simple and secure... hopefully.
+Session manager for the Emily Framework.

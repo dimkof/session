@@ -44,7 +44,7 @@ namespace Emily\Session
         /**
          * @var string The name of the session. Mainly used for the cookie name.
          */
-        protected $sessionName;
+        protected $name;
 
         /**
          * Create an instance of this class
@@ -73,12 +73,12 @@ namespace Emily\Session
             $options = array_merge($defaults, $options);
 
             $this->provider = $options['provider'];
-            $this->sessionName = $options['name'];
+            $this->name = $options['name'];
             $this->duration = $options['duration'];
 
-            if (isset($_COOKIE[$this->sessionName]) === true)
+            if (isset($_COOKIE[$this->name]) === true)
             {
-                $this->key = $_COOKIE[$this->sessionName];
+                $this->key = $_COOKIE[$this->name];
             }
             else
             {
@@ -131,7 +131,7 @@ namespace Emily\Session
          */
         public function getSessionName()
         {
-            return $this->sessionName;
+            return $this->name;
         }
 
         /**
